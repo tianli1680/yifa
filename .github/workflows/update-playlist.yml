@@ -19,27 +19,41 @@ jobs:
       - name: 1️⃣ 检出仓库代码
         uses: actions/checkout@v4
       
-      # 步骤2：创建并写入文件
-      - name: 2️⃣ 创建/更新 yifa.txt 文件
+      # 步骤2：下载并过滤内容
+      - name: 2️⃣ 下载并过滤播放列表内容
         run: |
           echo "开始下载播放列表内容..."
           
-          # 下载文件内容
-          curl -L -f "https://tvv.tw/github.com/fafa002/yf2025/blob/main/yiyifafa.txt" > yifa.txt
+          # 下载文件内容并过滤掉指定行
+          curl -L -f "https://tvv.tw/github.com/fafa002/yf2025/blob/main/yiyifafa.txt" | \
+          grep -v "盗源狗si全家 全家下地狱" > yifa.txt
           
           # 验证文件是否成功创建
           if [ -f "yifa.txt" ]; then
             echo "✅ 文件 yifa.txt 已成功创建"
-            echo "文件大小: $(wc -l < yifa.txt) 行"
-            echo "文件内容预览:"
-            head -n 3 yifa.txt
+            echo "文件行数: $(wc -l < yifa.txt) 行"
+            echo "文件大小: $(wc -c < yifa.txt) 字节"
+            echo -e "\n📄 文件内容预览（前5行）:"
+            head -n 5 yifa.txt
+            echo -e "\n📄 文件内容预览（后3行）:"
+            tail -n 3 yifa.txt
           else
             echo "❌ 文件创建失败"
             exit 1
           fi
       
-      # 步骤3：强制推送文件到仓库
-      - name: 3️⃣ 强制推送文件到仓库
+      # 步骤3：验证过滤效果
+      - name: 3️⃣ 验证不良内容已被删除
+        run: |
+          if grep -q "盗源狗si全家 全家下地狱" yifa.txt; then
+            echo "❌ 错误：不良内容仍然存在于文件中"
+            exit 1
+          else
+            echo "✅ 验证通过：不良内容已被成功删除"
+          fi
+      
+      # 步骤4：强制推送文件到仓库
+      - name: 4️⃣ 强制推送文件到仓库
         run: |
           # 配置git
           git config --global user.name "github-actions[bot]"
@@ -76,8 +90,8 @@ jobs:
             echo "✅ 文件已成功推送到仓库！"
           fi
       
-      # 步骤4：验证文件是否在仓库中
-      - name: 4️⃣ 验证文件存在
+      # 步骤5：最终验证
+      - name: 5️⃣ 最终验证
         run: |
           echo "等待几秒钟让文件同步..."
           sleep 5
@@ -86,8 +100,18 @@ jobs:
           if [ -f "yifa.txt" ]; then
             echo "✅ 确认: yifa.txt 存在于工作目录"
             echo "文件位置: $(pwd)/yifa.txt"
-            echo "文件内容前5行:"
-            head -n 5 yifa.txt
+            echo -e "\n📄 完整的干净文件内容:"
+            echo "----------------------------------------"
+            cat yifa.txt
+            echo "----------------------------------------"
+            
+            # 再次验证不良内容
+            if grep -q "盗源狗si全家 全家下地狱" yifa.txt; then
+              echo "❌ 错误：不良内容仍然存在！"
+              exit 1
+            else
+              echo "✅ 最终确认：文件内容干净，没有不良信息"
+            fi
           else
             echo "❌ 警告: 在目录中找不到 yifa.txt"
             exit 1
