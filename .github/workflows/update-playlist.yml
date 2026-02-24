@@ -5,52 +5,90 @@ on:
     - cron: '0 */6 * * *'
   workflow_dispatch:
 
+# 授予完整的写入权限
 permissions:
   contents: write
+  actions: write
 
 jobs:
-  update-file:
+  create-and-update-file:
     runs-on: ubuntu-latest
     
     steps:
-      - name: 检出仓库
+      # 步骤1：检出仓库
+      - name: 1️⃣ 检出仓库代码
         uses: actions/checkout@v4
       
-      - name: 下载播放列表并保存为 yifa.txt
+      # 步骤2：创建并写入文件
+      - name: 2️⃣ 创建/更新 yifa.txt 文件
         run: |
-          echo "🚀 开始从源URL获取播放列表..."
-          # 使用 -L 跟随重定向，-f 使HTTP错误时退出，--retry 增加容错
-          curl -L -f --retry 3 -o yifa.txt "https://tvv.tw/github.com/fafa002/yf2025/blob/main/yiyifafa.txt"
+          echo "开始下载播放列表内容..."
           
-          # 检查文件是否下载成功且非空
-          if [ ! -s yifa.txt ]; then
-            echo "❌ 错误：下载的文件为空或失败！"
+          # 下载文件内容
+          curl -L -f "https://tvv.tw/github.com/fafa002/yf2025/blob/main/yiyifafa.txt" > yifa.txt
+          
+          # 验证文件是否成功创建
+          if [ -f "yifa.txt" ]; then
+            echo "✅ 文件 yifa.txt 已成功创建"
+            echo "文件大小: $(wc -l < yifa.txt) 行"
+            echo "文件内容预览:"
+            head -n 3 yifa.txt
+          else
+            echo "❌ 文件创建失败"
+            exit 1
+          fi
+      
+      # 步骤3：强制推送文件到仓库
+      - name: 3️⃣ 强制推送文件到仓库
+        run: |
+          # 配置git
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "github-actions[bot]@users.noreply.github.com"
+          
+          # 显示当前状态
+          echo "当前目录内容:"
+          ls -la
+          
+          # 确保yifa.txt存在
+          if [ ! -f "yifa.txt" ]; then
+            echo "❌ 错误: yifa.txt 不存在"
             exit 1
           fi
           
-          echo "✅ 下载成功！文件大小：$(wc -c < yifa.txt) 字节"
-          echo "📄 文件内容预览（前5行）："
-          head -n 5 yifa.txt
-      
-      - name: 提交并推送更新
-        run: |
-          # 配置git用户
-          git config --global user.name 'github-actions[bot]'
-          git config --global user.email 'github-actions[bot]@users.noreply.github.com'
+          # 添加文件到git
+          git add yifa.txt -f
           
-          # 获取当前分支名
-          CURRENT_BRANCH=$(git rev-parse --abbrev-ref HEAD)
-          echo "当前分支：$CURRENT_BRANCH"
-          
-          # 检查文件是否有变化
-          if git diff --quiet yifa.txt; then
-            echo "ℹ️ 文件无变化，无需提交"
+          # 检查是否有变化需要提交
+          if git diff --staged --quiet; then
+            echo "文件内容没有变化，跳过提交"
           else
-            echo "📦 检测到文件变化，准备提交..."
-            git add yifa.txt
-            git commit -m "自动更新播放列表 - $(date +'%Y-%m-%d %H:%M:%S')"
+            # 提交更改
+            git commit -m "更新播放列表文件 - $(date +'%Y-%m-%d %H:%M:%S')"
             
-            echo "⬆️ 正在推送到分支 $CURRENT_BRANCH ..."
-            git push origin HEAD:$CURRENT_BRANCH
-            echo "✅ 更新已成功推送至仓库！"
+            # 获取当前分支名
+            BRANCH_NAME=$(git rev-parse --abbrev-ref HEAD)
+            echo "当前分支: $BRANCH_NAME"
+            
+            # 拉取最新更改并推送
+            git pull origin $BRANCH_NAME --rebase
+            git push origin $BRANCH_NAME
+            
+            echo "✅ 文件已成功推送到仓库！"
+          fi
+      
+      # 步骤4：验证文件是否在仓库中
+      - name: 4️⃣ 验证文件存在
+        run: |
+          echo "等待几秒钟让文件同步..."
+          sleep 5
+          
+          echo "检查仓库中的文件:"
+          if [ -f "yifa.txt" ]; then
+            echo "✅ 确认: yifa.txt 存在于工作目录"
+            echo "文件位置: $(pwd)/yifa.txt"
+            echo "文件内容前5行:"
+            head -n 5 yifa.txt
+          else
+            echo "❌ 警告: 在目录中找不到 yifa.txt"
+            exit 1
           fi
