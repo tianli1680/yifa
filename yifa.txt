@@ -409,6 +409,8 @@ TVB plus备,https://vdm6-hw.nbgdsygs.com/live/h6-2.flv
 极速港台,#genre#
 翡翠台,http://o11.163189.xyz/stream/tvb/fct/
 翡翠台,http://mytv.cdn.loc.cc/o12.php?id=fct
+华丽翡翠台,http://o11.163189.xyz/stream/live/hlt/
+华丽翡翠台(新加坡),http://o11.163189.xyz/stream/live/jade/
 翡翠台4K,http://o11.163189.xyz/stream/tvb/fct4k/
 TVB PLUS,http://o11.163189.xyz/stream/tvb/tvbp/
 明珠台,http://o11.163189.xyz/stream/tvb/mzt/
@@ -434,11 +436,6 @@ Channel U,http://cdn6.163189.xyz/163189/ch
 千禧经典台,http://o11.163189.xyz/stream/live/tvbc/
 天映频道,http://o11.163189.xyz/stream/live/typd/
 天映经典频道,http://o11.163189.xyz/stream/live/ccm/
-龙华电影,http://cdn8.veryfast.filegear-sg.me/163189/lhdy
-龙华经典台,http://cdn8.veryfast.filegear-sg.me/163189/lhjd
-龙华偶像,http://cdn8.veryfast.filegear-sg.me/163189/lhox
-龙华日韩台,http://cdn8.veryfast.filegear-sg.me/163189/lhrh
-龙华戏剧,http://cdn8.veryfast.filegear-sg.me/163189/lhxj
 金光布袋戏,http://o11.163189.xyz/stream/live/jgbdx/
 ASTROAOD,http://o11.163189.xyz/stream/live/aod/
 ASTROAEC,http://o11.163189.xyz/stream/live/aec/
@@ -646,8 +643,15 @@ Now Sports 精選,https://t.ttvb.eu.org/tvb/now-630/index.m3u8
 ViuTV,https://t.ttvb.eu.org/tvb/ViuTV/index.m3u8
 ViuTVsix,https://t.ttvb.eu.org/tvb/ViuTVsix/index.m3u8
 
-翡翠4k,http://tk2.hugo.cc.cd/stream/tk2/fct4k/master.m3u8
-无线新闻,http://tk2.hugo.cc.cd/stream/tk2/news/master.m3u8
+翡翠台4K,https://tk2.hugo.cc.cd/stream/tk2/fct4k/master.m3u8
+无线新闻台,https://tk2.hugo.cc.cd/stream/tk2/news/master.m3u8
+翡翠台1080P,https://tk2.hugo.cc.cd/stream/tk2/jade/master.m3u8
+TVBplus,https://tk2.hugo.cc.cd/stream/tk2/plus/master.m3u8
+明珠台,https://tk2.hugo.cc.cd/stream/tk2/pearl/master.m3u8
+
+凤凰咨询,http://feilong123.vip/409990236/hktv.php?id=1
+凤凰香港,http://feilong123.vip/409990236/hktv.php?id=2
+凤凰中文,http://feilong123.vip/409990236/hktv.php?id=3
 
 動物星球,https://hls.iill.top/api/dwxq/index.m3u8
 緯來日本,https://hls.iill.top/api/wlrb/index.m3u8
@@ -1450,77 +1454,57 @@ CCTV17农业农村,http://183.57.248.89:8183/tsfile/live/0016_1.m3u8
 广东影视高清,http://183.30.201.175:10002/udp/239.77.0.217:5146
 广东少儿高清,http://183.30.201.175:10002/udp/239.77.0.250:5146
 
-佛山广电,#genre#
-CCTV-1高清,http://jump.fantanggame.com:38981/stream/channelid/2057839085?profile=pass
-CCTV-2财经高清,http://jump.fantanggame.com:38981/stream/channelid/845194198?profile=pass
-CCTV-3综艺高清,http://jump.fantanggame.com:38981/stream/channelid/874238107?profile=pass
-CCTV-4中文国际高清,http://jump.fantanggame.com:38981/stream/channelid/2144959272?profile=pass
-CCTV-5+高清,http://jump.fantanggame.com:38981/stream/channelid/8829362?profile=pass
-CCTV-5体育高清,http://jump.fantanggame.com:38981/stream/channelid/108214728?profile=pass
-CCTV-6电影高清,http://jump.fantanggame.com:38981/stream/channelid/1203149000?profile=pass
-CCTV-7国防军事高清,http://jump.fantanggame.com:38981/stream/channelid/879800973?profile=pass
-CCTV-8电视剧高清,http://jump.fantanggame.com:38981/stream/channelid/1571431741?profile=pass
-CCTV-9记录高清,http://jump.fantanggame.com:38981/stream/channelid/1291568010?profile=pass
-CCTV-10科教高清,http://jump.fantanggame.com:38981/stream/channelid/949416928?profile=pass
-CCTV-11戏曲高清,http://jump.fantanggame.com:38981/stream/channelid/1420415307?profile=pass
-CCTV-12社会高清,http://jump.fantanggame.com:38981/stream/channelid/2037066997?profile=pass
-CCTV-13高清,http://jump.fantanggame.com:38981/stream/channelid/2053961034?profile=pass
-CCTV-14少儿高清,http://jump.fantanggame.com:38981/stream/channelid/1098677080?profile=pass
-CCTV-15音乐高清,http://jump.fantanggame.com:38981/stream/channelid/1083964009?profile=pass
-CCTV-16奥林匹克超高清,http://jump.fantanggame.com:38981/stream/channelid/1773321039?profile=pass
-CCTV-17农村农业高清,http://jump.fantanggame.com:38981/stream/channelid/226752422?profile=pass
-CGTN标清,http://jump.fantanggame.com:38981/stream/channelid/1321744389?profile=pass
-G导视高清,http://jump.fantanggame.com:38981/stream/channelid/687889228?profile=pass
-东方卫视高清,http://jump.fantanggame.com:38981/stream/channelid/608974922?profile=pass
-兵团卫视高清,http://jump.fantanggame.com:38981/stream/channelid/1258594168?profile=pass
-凤凰中文(高清),http://jump.fantanggame.com:38981/stream/channelid/225693146?profile=pass
-北京卫视高清,http://jump.fantanggame.com:38981/stream/channelid/409851018?profile=pass
-四川卫视高清,http://jump.fantanggame.com:38981/stream/channelid/85482009?profile=pass
-大湾区卫视高清,http://jump.fantanggame.com:38981/stream/channelid/675472013?profile=pass
-宁夏卫视高清,http://jump.fantanggame.com:38981/stream/channelid/2077725910?profile=pass
-山东卫视高清,http://jump.fantanggame.com:38981/stream/channelid/926533318?profile=pass
-山西卫视标清,http://jump.fantanggame.com:38981/stream/channelid/1757761420?profile=pass
-广东体育高清,http://jump.fantanggame.com:38981/stream/channelid/609597232?profile=pass
-广东少儿高清,http://jump.fantanggame.com:38981/stream/channelid/1542903364?profile=pass
-广东新闻高清,http://jump.fantanggame.com:38981/stream/channelid/60774160?profile=pass
-广东民生高清,http://jump.fantanggame.com:38981/stream/channelid/4719129?profile=pass
-广东珠江高清,http://jump.fantanggame.com:38981/stream/channelid/674861842?profile=pass
-广东经济科教标清,http://jump.fantanggame.com:38981/stream/channelid/674153210?profile=pass
-广州新闻高清,http://jump.fantanggame.com:38981/stream/channelid/1738447999?profile=pass
-广州综合高清,http://jump.fantanggame.com:38981/stream/channelid/1141712005?profile=pass
-新疆卫视高清,http://jump.fantanggame.com:38981/stream/channelid/201826981?profile=pass
-江苏卫视高清,http://jump.fantanggame.com:38981/stream/channelid/1019498905?profile=pass
-江西卫视高清,http://jump.fantanggame.com:38981/stream/channelid/269749500?profile=pass
-河北卫视高清,http://jump.fantanggame.com:38981/stream/channelid/1260764760?profile=pass
-河南卫视高清,http://jump.fantanggame.com:38981/stream/channelid/783140788?profile=pass
-浙江卫视高清,http://jump.fantanggame.com:38981/stream/channelid/1864752211?profile=pass
-湖北卫视高清,http://jump.fantanggame.com:38981/stream/channelid/714939603?profile=pass
-湖南卫视高清,http://jump.fantanggame.com:38981/stream/channelid/1192844654?profile=pass
-澳视澳门高清,http://jump.fantanggame.com:38981/stream/channelid/1590119320?profile=pass
-福建卫视高清,http://jump.fantanggame.com:38981/stream/channelid/1365437856?profile=pass
-辽宁卫视高清,http://jump.fantanggame.com:38981/stream/channelid/109073815?profile=pass
-重庆卫视高清,http://jump.fantanggame.com:38981/stream/channelid/1207958625?profile=pass
-重温经典高清,http://jump.fantanggame.com:38981/stream/channelid/2119291851?profile=pass
-金鹰卡通高清,http://jump.fantanggame.com:38981/stream/channelid/1589058294?profile=pass
-陕西卫视高清,http://jump.fantanggame.com:38981/stream/channelid/1256872675?profile=pass
-青海卫视高清,http://jump.fantanggame.com:38981/stream/channelid/411841360?profile=pass
-黑龙江卫视高清,http://jump.fantanggame.com:38981/stream/channelid/372078302?profile=pass
-佛山城市生活高清,http://jump.fantanggame.com:38981/stream/channelid/1720667315?profile=pass
-佛山综合高清,http://jump.fantanggame.com:38981/stream/channelid/1726405163?profile=pass
-南海频道高清,http://jump.fantanggame.com:38981/stream/channelid/1594444015?profile=pass
-吉林卫视高清,http://jump.fantanggame.com:38981/stream/channelid/2010321518?profile=pass
-嘉佳卡通高清,http://jump.fantanggame.com:38981/stream/channelid/1971748446?profile=pass
-明珠台高清,http://jump.fantanggame.com:38981/stream/channelid/960712552?profile=pass
-翡翠台高清,http://jump.fantanggame.com:38981/stream/channelid/1877764941?profile=pass
-顺德频道高清,http://jump.fantanggame.com:38981/stream/channelid/1687794545?profile=pass
-卡酷少儿高清,http://jump.fantanggame.com:38981/stream/channelid/1512446642?profile=pass
-深圳卫视高清,http://jump.fantanggame.com:38981/stream/channelid/788328623?profile=pass
-HD Phx Chinese Channel,http://jump.fantanggame.com:19981/stream/channelid/1820554070?profile=pass
-HD Phx HK Channel,http://jump.fantanggame.com:19981/stream/channelid/1744673927?profile=pass
-HD Phx InfoNews Channel,http://jump.fantanggame.com:19981/stream/channelid/1529989483?profile=pass
-Phx Chinese Channel,http://jump.fantanggame.com:19981/stream/channelid/2117521091?profile=pass
-Phx InfoNews Channel,http://jump.fantanggame.com:19981/stream/channelid/1391636271?profile=pass
-Phx Movies Channel,http://jump.fantanggame.com:19981/stream/channelid/716372856?profile=pass
+深圳天威,#genre#
+深圳卫视,http://111.221.137.234:44330/tsfile/live/1013_1.m3u8?key=txiptv&playlive=0&authid=0
+深圳都市,http://111.221.137.234:44330/tsfile/live/1014_1.m3u8?key=txiptv&playlive=0&authid=0
+深圳电视剧,http://111.221.137.234:44330/tsfile/live/1015_1.m3u8?key=txiptv&playlive=0&authid=0
+深圳财经生活,http://111.221.137.234:44330/tsfile/live/1007_1.m3u8?key=txiptv&playlive=0&authid=0
+广东卫视,http://111.221.137.234:44330/tsfile/live/0128_1.m3u8?key=txiptv&playlive=0&authid=0
+广东体育,http://111.221.137.234:44330/tsfile/live/0124_1.m3u8?key=txiptv&playlive=0&authid=0
+广东公共,http://111.221.137.234:44330/tsfile/live/0127_1.m3u8?key=txiptv&playlive=0&authid=0
+广东新闻,http://111.221.137.234:44330/tsfile/live/0107_1.m3u8?key=txiptv&playlive=0&authid=0
+南方卫视,http://111.221.137.234:44330/tsfile/live/0130_1.m3u8?key=txiptv&playlive=0&authid=0
+翡翠台,http://111.221.137.234:44330/tsfile/live/0141_1.m3u8?key=txiptv&playlive=0&authid=0
+明珠台,http://111.221.137.234:44330/tsfile/live/0112_1.m3u8?key=txiptv&playlive=0&authid=0
+Channel [V],http://111.221.137.234:44330/tsfile/live/0118_1.m3u8?key=txiptv&playlive=0&authid=0
+凤凰卫视中文台,http://111.221.137.234:44330/tsfile/live/0141_2.m3u8?key=txiptv&playlive=0&authid=0
+星空卫视,http://111.221.137.234:44330/tsfile/live/0112_2.m3u8?key=txiptv&playlive=0&authid=0
+CCTV-1 综合,http://111.221.137.234:44330/tsfile/live/0001_1.m3u8?key=txiptv&playlive=0&authid=0
+CCTV-2 财经,http://111.221.137.234:44330/tsfile/live/0002_1.m3u8?key=txiptv&playlive=0&authid=0
+CCTV-3 综艺,http://111.221.137.234:44330/tsfile/live/0003_1.m3u8?key=txiptv&playlive=0&authid=0
+CCTV-4 中文国际,http://111.221.137.234:44330/tsfile/live/0004_1.m3u8?key=txiptv&playlive=0&authid=0
+CCTV-5 体育,http://111.221.137.234:44330/tsfile/live/0005_1.m3u8?key=txiptv&playlive=0&authid=0
+CCTV-6 电影,http://111.221.137.234:44330/tsfile/live/0006_1.m3u8?key=txiptv&playlive=0&authid=0
+CCTV-7 国防军事,http://111.221.137.234:44330/tsfile/live/0007_1.m3u8?key=txiptv&playlive=0&authid=0
+CCTV-8 电视剧,http://111.221.137.234:44330/tsfile/live/0008_1.m3u8?key=txiptv&playlive=0&authid=0
+CCTV-9 纪录,http://111.221.137.234:44330/tsfile/live/0009_1.m3u8?key=txiptv&playlive=0&authid=0
+CCTV-10 科教,http://111.221.137.234:44330/tsfile/live/0010_1.m3u8?key=txiptv&playlive=0&authid=0
+CCTV-11 戏曲,http://111.221.137.234:44330/tsfile/live/0011_1.m3u8?key=txiptv&playlive=0&authid=0
+CCTV-12 社会与法,http://111.221.137.234:44330/tsfile/live/0012_1.m3u8?key=txiptv&playlive=0&authid=0
+CCTV-13 新闻,http://111.221.137.234:44330/tsfile/live/0013_1.m3u8?key=txiptv&playlive=0&authid=0
+CCTV-14 少儿,http://111.221.137.234:44330/tsfile/live/0014_1.m3u8?key=txiptv&playlive=0&authid=0
+CCTV-15 音乐,http://111.221.137.234:44330/tsfile/live/0015_1.m3u8?key=txiptv&playlive=0&authid=0
+CCTV-5+ 体育赛事,http://111.221.137.234:44330/tsfile/live/0125_1.m3u8?key=txiptv&playlive=0&authid=0
+CGTN,http://111.221.137.234:44330/tsfile/live/1012_1.m3u8?key=txiptv&playlive=0&authid=0
+湖南卫视,http://111.221.137.234:44330/tsfile/live/0122_1.m3u8?key=txiptv&playlive=0&authid=0
+江苏卫视,http://111.221.137.234:44330/tsfile/live/0135_1.m3u8?key=txiptv&playlive=0&authid=0
+浙江卫视,http://111.221.137.234:44330/tsfile/live/0131_1.m3u8?key=txiptv&playlive=0&authid=0
+北京卫视,http://111.221.137.234:44330/tsfile/live/0138_1.m3u8?key=txiptv&playlive=0&authid=0
+东方卫视,http://111.221.137.234:44330/tsfile/live/0126_1.m3u8?key=txiptv&playlive=0&authid=0
+天津卫视,http://111.221.137.234:44330/tsfile/live/0132_1.m3u8?key=txiptv&playlive=0&authid=0
+山东卫视,http://111.221.137.234:44330/tsfile/live/0121_1.m3u8?key=txiptv&playlive=0&authid=0
+重温经典,http://111.221.137.234:44330/tsfile/live/0143_1.m3u8?key=txiptv&playlive=0&authid=0
+安徽卫视,http://111.221.137.234:44330/tsfile/live/0120_1.m3u8?key=txiptv&playlive=0&authid=0
+辽宁卫视,http://111.221.137.234:44330/tsfile/live/0123_1.m3u8?key=txiptv&playlive=0&authid=0
+湖北卫视,http://111.221.137.234:44330/tsfile/live/0139_1.m3u8?key=txiptv&playlive=0&authid=0
+重庆卫视,http://111.221.137.234:44330/tsfile/live/0142_1.m3u8?key=txiptv&playlive=0&authid=0
+海南卫视,http://111.221.137.234:44330/tsfile/live/0117_1.m3u8?key=txiptv&playlive=0&authid=0
+四川卫视,http://111.221.137.234:44330/tsfile/live/0137_2.m3u8?key=txiptv&playlive=0&authid=0
+吉林卫视,http://111.221.137.234:44330/tsfile/live/0113_1.m3u8?key=txiptv&playlive=0&authid=0
+江西卫视,http://111.221.137.234:44330/tsfile/live/0137_1.m3u8?key=txiptv&playlive=0&authid=0
+陕西卫视,http://111.221.137.234:44330/tsfile/live/0116_2.m3u8?key=txiptv&playlive=0&authid=0
+河南卫视,http://111.221.137.234:44330/tsfile/live/0136_1.m3u8?key=txiptv&playlive=0&authid=0
+云南卫视,http://111.221.137.234:44330/tsfile/live/0118_2.m3u8?key=txiptv&playlive=0&authid=0
 
 海南移动,#genre#
 CCTV1,http://111.29.9.33:6610/000000001000/1000000001000021973/index.m3u8?channel-id=bestzb&Contentid=1000000001000021973&livemode=1&stbId=3
