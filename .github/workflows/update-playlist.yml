@@ -42,6 +42,21 @@ jobs:
             exit 1
           fi
       
+      # 步骤2.5：添加时间戳到文件
+      - name: 2.5️⃣ 添加更新时间戳
+        run: |
+          # 在文件开头添加时间戳（可根据需要改为追加到末尾）
+          echo "# 最后更新时间: $(date +'%Y-%m-%d %H:%M:%S %Z')" > temp_timestamp.txt
+          echo "" >> temp_timestamp.txt
+          cat yifa.txt >> temp_timestamp.txt
+          mv temp_timestamp.txt yifa.txt
+          
+          # 如果想把时间戳放在文件末尾，使用以下代码（注释掉上面的，取消注释下面的）：
+          # echo "" >> yifa.txt
+          # echo "# 最后更新时间: $(date +'%Y-%m-%d %H:%M:%S %Z')" >> yifa.txt
+          
+          echo "✅ 已添加时间戳到文件"
+      
       # 步骤3：验证过滤效果
       - name: 3️⃣ 验证不良内容已被删除
         run: |
