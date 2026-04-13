@@ -1,4 +1,4 @@
-# 最后更新时间: 2026-04-13 08:00:54 UTC
+# 最后更新时间: 2026-04-13 13:23:03 UTC
 
 抖音K歌,#genre#,DE=3
 小米YU7,https://www.iesdouyin.com/aweme/v1/playwm/?video_id=v0200fg10000d0nrolvog65uva9acetg&ratio=720p&line=0
@@ -1530,6 +1530,9 @@ GRTN文化频道,https://glive.grtn.cn/live/wenhua_test0203.m3u8
 深圳龙岗,http://zhfw-t.szlg.com:8080/live/television1.m3u8
 
 广东酒店,#genre#,DE=3
+广东珠江,http://8.138.7.223/tv/gdzj.m3u8
+大湾区卫视,http://8.138.7.223/tv/dwq.m3u8
+
 大湾区卫视,http://go.bkpcp.top/mg/dwqws
 广东影视,http://go.bkpcp.top/mg/gdys
 广东卫视,http://go.bkpcp.top/mg/gdws
