@@ -1,4 +1,4 @@
-# 最后更新时间: 2026-04-16 07:43:12 UTC
+# 最后更新时间: 2026-04-16 13:26:36 UTC
 
 抖音K歌,#genre#,DE=3
 小米YU7,https://www.iesdouyin.com/aweme/v1/playwm/?video_id=v0200fg10000d0nrolvog65uva9acetg&ratio=720p&line=0
@@ -409,6 +409,7 @@ TVB plus备,https://vdm6-hw.nbgdsygs.com/live/h6-2.flv
 极速港台,#genre#,DE=3
 翡翠台,http://o11.163189.xyz/stream/tvb/fct/
 翡翠台,http://mytv.cdn.loc.cc/o12.php?id=fct
+翡翠台广电,http://cdn6.163189.xyz/163189/fct
 华丽翡翠台,http://o11.163189.xyz/stream/live/hlt/
 华丽翡翠台(新加坡),http://o11.163189.xyz/stream/live/jade/
 翡翠台4K,http://o11.163189.xyz/stream/tvb/fct4k/
