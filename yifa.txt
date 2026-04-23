@@ -1,4 +1,4 @@
-# 最后更新时间: 2026-04-23 13:25:35 UTC
+# 最后更新时间: 2026-04-23 19:05:22 UTC
 
 抖音K歌,#genre#,DE=3
 小米YU7,https://www.iesdouyin.com/aweme/v1/playwm/?video_id=v0200fg10000d0nrolvog65uva9acetg&ratio=720p&line=0
@@ -759,6 +759,7 @@ ViuTV,http://2:2@113.89.101.85:9981/stream/channelid/446485537?profile=htsp
 四季台湾,#genre#,DE=3
 爆谷台,rtmp://oc-play-ali.vipkid.com.cn/live/xianajiaoge-bg
 翡翠台,rtmp://oc-play-ali.vipkid.com.cn/live/xianajiaoge-fct
+翡翠台(备),rtmp://www.hz-hengsheng.com/live/xiangjiaoge-fc
 无线新闻,rtmp://oc-play-ali.vipkid.com.cn/live/xianajiaoge-wxxw
 凤凰中文,rtmp://oc-play-ali.vipkid.com.cn/live/xianajiaoge-fhzw
 凤凰资讯,rtmp://oc-play-ali.vipkid.com.cn/live/xianajiaoge-fhzx
