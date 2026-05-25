@@ -25,7 +25,7 @@ jobs:
           echo "开始下载播放列表内容..."
           
           # 下载文件内容并过滤掉指定行
-          curl -L -f "https://tvv.tw/github.com/fafa002/yf2025/blob/main/yiyifafa.txt" | \
+          curl -L -f "https://raw.githubusercontent.com/fafa002/yf2025/refs/heads/main/yiyifafa.txt" | \
           grep -v "盗源狗si全家 全家下地狱" > yifa.txt
           
           # 验证文件是否成功创建
