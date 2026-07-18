@@ -1,4 +1,4 @@
-# 最后更新时间: 2026-07-18 02:13:48 UTC
+# 最后更新时间: 2026-07-18 07:45:29 UTC
 
 抖音K歌,#genre#,DE=3
 切换EXO解码,1
@@ -676,7 +676,7 @@ SKY SPORTS RACING,http://mypanel-4k.com:80/me52pjdqa6/dt2t9r16ja/1236227
 美国beIN体育,http://23.237.104.106:8080/USA_BEIN/tracks-v1a1/mono.m3u8
 
 四季台湾,#genre#
-中天新闻,http://www.shangguanlingjun.xyz:8081/live/666ztxw.m3u8
+中天新闻,rtmp://47.238.2.198/live/888ztxw
 中天新闻,http://111.0.115.129:8081/live/222ztxw.m3u8
 中天新闻,http://safe.shanghairta.com:8081/live/555ztxw.m3u8
 中天新闻,http://hsjky.com.cn:8081/live/111ztxw.m3u8
