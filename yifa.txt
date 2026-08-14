@@ -1,4 +1,4 @@
-# 最后更新时间: 2026-08-14 13:00:18 UTC
+# 最后更新时间: 2026-08-14 18:50:13 UTC
 
 抖音K歌,#genre#,DE=3
 切换EXO解码,1
@@ -531,9 +531,9 @@ TVB Plus,https://smt.1678520.xyz/163189/tvbp
 咪咕4K-2(限移动网络),http://r.jdshipin.com/Lqdwf
 
 极速港台2,#genre#,DE=3
-翡翠台,http://111.221.137.203:4455/tsfile/live/1008_1.m3u8
 翡翠台,http://gd.wsd.gd.cn:1698/hls/92/index.m3u8
 翡翠台,http://116.77.239.26:44300/tsfile/live/0141_1.m3u8
+翡翠台,http://211.97.63.3:3443/hls/541/index.m3u8
 翡翠台,http://everydaytv.top/live/ggiptv/jade/playlist.m3u8
 凤凰中文台,http://a68c7fdd1bed6600da71182507b4eab9.everydaytv.top/live/ggiptv/jade/playlist.m3u8
 
